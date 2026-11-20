@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AnyThrift — Store Partner One-Pager</title>
+<style>
+  @page { size: Letter; margin: 14mm; }
+  :root{--ink:#1b1d1a;--green:#1f3d2b;--line:#d9d5c9;--clay:#a8512a;--paper:#fbfaf5}
+  *{box-sizing:border-box}
+  body{margin:0;background:#eceae2;color:var(--ink);font:13.2px/1.45 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .sheet{max-width:800px;margin:18px auto;background:var(--paper);padding:30px 34px;border:1px solid var(--line)}
+  header{border-bottom:3px solid var(--green);padding-bottom:12px;margin-bottom:18px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
+  .brand{font:600 26px/1 Georgia,serif;color:var(--green)}
+  .slogan{font:italic 13px/1.3 Georgia,serif;color:#4a4e46}
+  .contact{font-size:11.5px;text-align:right;color:#4a4e46}
+  h1{font:500 25px/1.15 Georgia,serif;margin:0 0 8px}
+  h2{font:600 14px/1.2 ui-sans-serif;margin:20px 0 6px;text-transform:uppercase;letter-spacing:.07em;color:var(--green)}
+  p{margin:0 0 9px}
+  ul{margin:0 0 10px 18px;padding:0} li{margin-bottom:5px}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .box{background:#fff;border:1px solid var(--line);padding:12px 14px}
+  table{border-collapse:collapse;width:100%;font-size:12.6px;margin:6px 0 4px}
+  th,td{text-align:left;padding:5px 6px;border-bottom:1px solid var(--line)}
+  th{font-weight:600;color:#4a4e46;font-size:11.5px;text-transform:uppercase;letter-spacing:.04em}
+  td.num{text-align:right;font-variant-numeric:tabular-nums}
+  .total td{border-top:2px solid var(--green);border-bottom:none;font-weight:700}
+  .fine{font-size:11px;color:#63665e;line-height:1.4}
+  .steps{counter-reset:s;list-style:none;margin-left:0}
+  .steps li{counter-increment:s;position:relative;padding-left:26px;margin-bottom:7px}
+  .steps li:before{content:counter(s);position:absolute;left:0;top:0;width:18px;height:18px;border-radius:50%;
+    background:var(--green);color:#fff;font-size:11px;display:grid;place-items:center;font-weight:700}
+  footer{border-top:1px solid var(--line);margin-top:18px;padding-top:9px}
+  @media print{ body{background:#fff} .sheet{border:0;margin:0;padding:0;max-width:none} }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <header>
+    <div>
+      <div class="brand">AnyThrift</div>
+      <div class="slogan">Thrift any store, anywhere.</div>
+    </div>
+    <div class="contact">
+      [Your name] · [phone] · [email]<br>
+      Mamaroneck, NY · anythrift.example
+    </div>
+  </header>
+
+  <h1>A few of your items online. Shoppers come to you to try them.</h1>
+  <p>We photograph and list a small, agreed number of items from your shop, and send interested shoppers to your counter
+    to see them in person. They pay you, at your price, at your register. You keep selling everything else exactly as you
+    do today.</p>
+
+  <div class="cols">
+    <div>
+      <h2>Two ways it works</h2>
+      <ul>
+        <li><strong>Shoppers visit you.</strong> They see your price online, we send them a pass, they try the item and pay
+          <em>you</em> at your register. AnyThrift takes no payment in the store.</li>
+        <li><strong>Shipped items are separate.</strong> If we sell one for shipping, we buy it from you at the agreed
+          amount (your tag price plus $1) and handle delivery and returns.</li>
+        <li>Exposure to shoppers who never walk past your door.</li>
+        <li>No listing fee, no subscription, no exclusivity, no minimum.</li>
+        <li>Items that don't sell simply stay on your floor.</li>
+      </ul>
+      <h2>What we ask</h2>
+      <ul>
+        <li>Let us photograph selected items on your open days.</li>
+        <li>Scan the shopper's pass when they arrive, and scan our item label if they buy (one tap each).</li>
+        <li>Put an item aside only if you agree to a short try-on hold.</li>
+        <li>Tell us the same day if it sells in the shop.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2 style="margin-top:0">How it works</h2>
+      <ol class="steps">
+        <li>We agree a number of items per week (8–15 is typical).</li>
+        <li>We photograph, measure and list them at one AnyThrift price.</li>
+        <li>A shopper requests an item; we check it's still there with you.</li>
+        <li>You hold it with our label; the shopper collects it and you're paid.</li>
+      </ol>
+    </div>
+  </div>
+
+  <h2>The money, with sample numbers</h2>
+  <table>
+    <tr><th>Example item</th><th>Your tag</th><th>In-store sale</th><th>Shipped sale</th></tr>
+    <tr><td>Stoneware bowl (sample)</td><td class="num">$8.00</td><td class="num">$8.00 to you</td><td class="num">$9.00 to you</td></tr>
+    <tr><td>Small side table (sample)</td><td class="num">$35.00</td><td class="num">$35.00 to you</td><td class="num">$36.00 to you</td></tr>
+    <tr class="total"><td>Your price is your price</td><td class="num">—</td><td class="num">100% at your register</td><td class="num">tag + $1</td></tr>
+  </table>
+  <p class="fine">In-store purchases are paid to you directly; AnyThrift takes no payment and no markup in the store.
+    Shipped items are bought from you at the agreed amount and sold by AnyThrift at its own price, with delivery stated
+    separately. Sample figures, not a quote. Any referral or catalogue fee is a separate, optional agreement — the pilot
+    can run with no fee while visits are measured.</p>
+
+  <h2>What we don't do</h2>
+  <div class="cols">
+    <ul>
+      <li>We don't touch your register or claim a POS integration.</li>
+      <li>We don't change your prices or your floor — in the store, your price is the only price.</li>
+      <li>We don't promise sales, traffic or a timeline.</li>
+    </ul>
+    <ul>
+      <li>We don't take returns back to you — we handle the customer.</li>
+      <li>We don't list anything you don't want listed.</li>
+      <li>We don't ask for exclusivity.</li>
+    </ul>
+  </div>
+
+  <h2>The trial</h2>
+  <p><strong>Two weeks, 8–15 items, no cost, no fee.</strong> Either side can stop with a week's notice. At the end we show
+    you how many people we sent, how many arrived, what they bought and what you were paid. If it isn't worth your shelf,
+    we stop.</p>
+
+  <footer>
+    <p class="fine">Pilot terms are one page and marked for attorney review — we'll send it before anything starts.
+      Shipped items are bought from you and resold by AnyThrift on its own account; in-store sales are yours, at your
+      price, paid at your register. Our accountant is confirming the tax and paperwork treatment for both before any
+      live online payment.</p>
+  </footer>
+</div>
+</body>
+</html>
